@@ -1,8 +1,13 @@
-# Python project template
+# Project Financial  time series
 
 Authors:
+[Albin Essman](https://github.com/AlbinEssman),
+[Lukas Prader](https://github.com/luprader),
+[Noah Tingbratt](https://github.com/noahtingb),
+[Truls Levenstam](https://github.com/Trulslevenstam),
+[Yangguang Chen](https://github.com/YgggC)
 
-Explain what the project is about and any other things users may need to know.
+This project contains the code used to create the results of group 7 in the course "Financial time series" at Chalmers / University of Gothenburg 2026.
 
 ## Project setup and management with uv
 https://docs.astral.sh/uv/

@@ -1,10 +1,13 @@
 [project]
 authors = [
-  {name = "Lukas Prader", email = "example@email.com"}
+    {name = "Albin Essman", email = "albines@student.chalmers.se"},
+    {name = "Lukas Prader", email = "prader@student.chalmers.se"},
+    {name = "Noah Tingbratt", email = "noahti@student.chalmers.se"},
+    {name = "Truls Levenstam", email = "guslevtr@student.gu.se"},
+    {name = "Yangguang Chen", email = "yangche@student.chalmers.se"}
 ]
-name = "python-template"
-version = "0.1.0"
-description = "Add your description here"
+name = "project_FTS"
+description = "Project for the course Financial time series"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -12,6 +15,7 @@ dependencies = [
     "scipy>=1.16.3",
     "matplotlib>=3.10.7",
     "ipykernel>=7.1.0",
+    "nbconvert>=7.17.0",
 ]
 
 [dependency-groups]
