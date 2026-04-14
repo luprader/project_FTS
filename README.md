@@ -5,9 +5,12 @@ Authors:
 [Lukas Prader](https://github.com/luprader),
 [Noah Tingbratt](https://github.com/noahtingb),
 [Truls Levenstam](https://github.com/Trulslevenstam),
-[Yangguang Chen](https://github.com/YgggC)
+[Yangguang Chen](https://github.com/YgggC),
+[Tom Xu](https://github.com/tommingyuanxu2002-png)
 
 This project contains the code used to create the results of group 7 in the course "Financial time series" at Chalmers / University of Gothenburg 2026.
+
+To run the project, set it up with uv and put the dataset "spiff_data-2.csv" into the project root.
 
 ## Project setup and management with uv
 https://docs.astral.sh/uv/
