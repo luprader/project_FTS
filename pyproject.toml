@@ -7,6 +7,7 @@ authors = [
     {name = "Yangguang Chen", email = "yangche@student.chalmers.se"}
 ]
 name = "project_FTS"
+version = "0.1.0"
 description = "Project for the course Financial time series"
 readme = "README.md"
 requires-python = ">=3.13"
