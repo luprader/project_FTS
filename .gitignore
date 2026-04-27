@@ -1,4 +1,4 @@
 .venv
 spiff_data-2.csv
 Project_Financial_Timeseries_2526.pdf
-augmented_data/*
+augmented_data/*.DS_Store
