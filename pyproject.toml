@@ -20,6 +20,7 @@ dependencies = [
     "statsmodels>=0.14.6",
     "scikit-learn>=1.8.0",
     "pmdarima>=2.1.1",
+    "seaborn>=0.13.2",
 ]
 
 [dependency-groups]
