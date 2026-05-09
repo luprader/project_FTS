@@ -3,6 +3,4 @@ spiff_data-2.csv
 Project_Financial_Timeseries_2526.pdf
 augmented_data/*.DS_Store
 augmented_data/*
-found_periods_price_data.npy
-top3_periods_log_returns.npy
-granger_log_returns.npy
+*.npy
