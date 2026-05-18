@@ -4,13 +4,14 @@ Authors:
 [Albin Essman](https://github.com/AlbinEssman),
 [Lukas Prader](https://github.com/luprader),
 [Noah Tingbratt](https://github.com/noahtingb),
+[Tom Xu](https://github.com/tommingyuanxu2002-png),
 [Truls Levenstam](https://github.com/Trulslevenstam),
-[Yangguang Chen](https://github.com/YgggC),
-[Tom Xu](https://github.com/tommingyuanxu2002-png)
+[Yangguang Chen](https://github.com/YgggC)
 
 This project contains the code used to create the results of group 7 in the course "Financial time series" at Chalmers / University of Gothenburg 2026.
 
 To run the project, set it up with uv and put the dataset "spiff_data-2.csv" into the project root.
+Tasks should be run in order, since there are some dependencies on generated output files.
 
 ## Project setup and management with uv
 https://docs.astral.sh/uv/
@@ -24,20 +25,5 @@ pipx install uv==0.9.5
 ```bash
 uv sync
 ```
-If the project is version controlled, it is important to add the poetry.lock file to the project repository.
 
-Add dependencies using `uv add packagename`
-
-For compatibility with other tools, one can export the uv.lock to pylock.toml
-
-## Ruff formatter / linter
-https://docs.astral.sh/ruff/
-
-Ruff is part of the `dev` dependency group, which is synced to the workspace by default.
-It can be used in the command line
-```bash
-uv run ruff check   # Lint all files in the current directory.
-uv run ruff format  # Format all files in the current directory.
-```
-
-In VSCode, the Ruff extension is sufficient, no other installs are necessary.
+Run the files either using "uv run" or select the virtual environment kernel in the notebooks directly and run as usual.
